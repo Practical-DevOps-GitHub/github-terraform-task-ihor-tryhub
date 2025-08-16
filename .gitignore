@@ -1,0 +1,23 @@
+# Terraform state files
+terraform.tfstate
+terraform.tfstate.*
+
+# Terraform lock information
+.terraform.tfstate.lock.info
+
+# Terraform's local directory for providers and modules
+**/.terraform/
+
+# Terraform variable definition files (containing sensitive data)
+*.tfvars
+*.tfvars.json
+
+# Terraform plan files
+*.tfplan
+
+# Terraform crash log files
+crash.log
+
+# Terraform CLI configuration files
+.terraformrc
+terraform.rc
